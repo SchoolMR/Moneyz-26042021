@@ -1,7 +1,7 @@
 -- Create en start Database
 
 CREATE DATABASE moneyz;
-use moneyz;
+USE moneyz;
 
 -- Tabellen
 
