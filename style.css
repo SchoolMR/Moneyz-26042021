@@ -1,0 +1,37 @@
+.whitePiece, .blackPiece
+{
+
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.whitePiece
+{
+
+    background-color: white;
+
+}
+
+.blackPiece
+{
+
+    background-color: black;
+
+}
+
+table, tr, tbody
+{
+
+    border-spacing: 0;
+    
+}
+
+table
+{
+
+    border: 3px solid black;
+
+}
