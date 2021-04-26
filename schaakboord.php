@@ -13,23 +13,23 @@
 
         <?php
 
-        // Kan ook $row = 1 doen en $row < 8, maar ben meer gewent beginnen met de 0
-        for($row = 0; $row < 7; $row++)
+        // Can make $row = 1 and $row < 9, but I prefer starting with 0
+        for($row = 0; $row < 8; $row++)
         {
-            // Start de table row, kan geen table data zonder table row hebben
+            // Start table row, can't have table data without table row
             echo "<tr>";
 
-            for($col = 0; $col < 7; $col++)
+            for($col = 0; $col < 8; $col++)
             {
 
                 $total = $row + $col;
 
-                $chessPiece = !($total % 2) ? "whitePiece" : "blackPiece";
+                $chessPiece = !($total % 2) ? "blackPiece" : "whitePiece";
                 echo "<td class=$chessPiece></td>";
 
             }
 
-            // Sluit table row af!
+            // Close the row
             echo "</tr>";
 
         }
