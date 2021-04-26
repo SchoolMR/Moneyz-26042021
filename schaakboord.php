@@ -24,7 +24,7 @@
 
                 $total = $row + $col;
 
-                $chessPiece = !($total % 2) ? "whitePiece" : "blackPiece";
+                $chessPiece = !($total % 2) ? "blackPiece" : "whitePiece";
                 echo "<td class=$chessPiece></td>";
 
             }
